@@ -1,0 +1,45 @@
+/*
+* @Author: Marte
+* @Date:   2017-07-26 21:43:06
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-26 21:58:16
+*/
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    text-decoration: none;
+}
+.tabs{
+    width:400px;
+    margin:20px auto;
+    border:1px solid #ccc;
+}
+.tabs>div{
+    height: 50px;
+    width:100%;
+    display: flex;
+    text-align: center;
+    line-height:50px;
+    box-sizing: border-box;
+}
+div>a{
+    flex:1;
+    color:blue;
+    background-color:#ceffbb;
+    border-right: 1px solid white;
+}
+.tabs>div>a:nth-of-type(4){
+    border-right:none;
+}
+.active{
+    background-color: pink;
+}
+section{
+    padding:12px;
+    padding-left: 30px;
+    display:none;
+}
+ol li{
+    line-height:34px;
+}
